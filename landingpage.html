@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Pulse Gym</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="landing.css">
+</head>
+
+<body class="bg-slate-950 text-white font-[Poppins]">
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="fixed top-0 left-0 w-full bg-slate-950/80 backdrop-blur-lg z-50 shadow-md">
+
+    <nav class="max-w-7xl mx-auto flex items-center justify-between px-6 py-5">
+
+        <h1 class="text-3xl font-bold text-red-500">
+            MOTION<span class="text-white">STUDIO</span>
+        </h1>
+
+        <ul class="hidden md:flex space-x-8 text-gray-300">
+
+            <li><a href="#home" class="hover:text-red-500 transition">Home</a></li>
+
+            <li><a href="#about" class="hover:text-red-500 transition">About</a></li>
+
+            <li><a href="#programs" class="hover:text-red-500 transition">Programs</a></li>
+
+            <li><a href="#pricing" class="hover:text-red-500 transition">Pricing</a></li>
+
+            <li><a href="#contact" class="hover:text-red-500 transition">Contact</a></li>
+
+        </ul>
+
+<button id="menuBtn" class="md:hidden text-3xl text-white">
+    ☰
+</button>
+
+    </nav>
+
+   
+
+    <div id="mobileMenu" class="hidden bg-slate-900 px-6 pb-5 md:hidden">
+
+        <a href="#home" class="block py-2">Home</a>
+        <a href="#about" class="block py-2">About</a>
+        <a href="#programs" class="block py-2">Programs</a>
+        <a href="#pricing" class="block py-2">Pricing</a>
+        <a href="#contact" class="block py-2">Contact</a>
+
+    </div>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="min-h-screen flex items-center bg-cover bg-no-repeat"
+style="background-image: url('image.jpeg')";>
+    <div class="absolute inset-0 bg-black/40"></div>
+<div class="max-w-7xl mx-auto px-6  z-10 text-center">
+
+<div>
+<span class="inline-block  px-4 py-2 rounded-full text-sm font-semibold">  🔥  Premium Fitness Experience</span>
+
+
+<h1 id="heroTitle"
+class="text-5xl md:text-7xl font-extrabold leading-tight">
+
+    <span class="title-left block">
+        Build Your Strongest
+    </span>
+
+    <span class="title-right block mt-2">
+        Version Yet
+    </span>
+
+</h1>
+
+<p class=" max-w-1xl   mx-auto text-gray-300 leading-8 mt-8 text-lg">
+    Join Motion Studio Gym and transform your fitness journey with expert trainers, premium equipment, and personalized workout programs designed to help you build strength, improve endurance, and achieve lasting results.
+</p>
+
+<div class="mt-10 justify-center flex flex-wrap gap-5">
+
+<a href="#pricing"
+class=" bg-red-600 hover:bg-red-700 transition px-8 py-4 rounded-xl font-semibold">
+
+Join Now
+
+</a>
+
+<a href="#programs"
+class="border border-gray-200 hover:border-red-500 px-8 py-4 rounded-xl">
+
+Explore Programs
+
+</a>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="relative py-24 overflow-hidden
+bg-gradient-to-br
+from-black
+via-slate-900
+to-red-950" >
+
+   <div class="absolute top-50 left-0 w-[500px] h-[500px] bg-red-500/10 rounded-full blur-[180px]"></div>
+
+<div class="absolute bottom-0 right-0 w-[450px] h-[450px] bg-red-700/20 rounded-full blur-[180px]"></div>
+
+
+
+<div class="max-w-6xl mx-auto px-6">
+
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+
+<div >
+
+<img
+src="image.png"
+class="rounded-3xl shadow-2xl about-img
+opacity-0 scale-75 rotate-6 transition-all duration-1000">
+</div>
+
+<div>
+<span class="text-red-500 uppercase tracking-[4px] font-semibold">
+    About Us
+</span>
+
+<h2 class="text-4xl font-bold mt-3 leading-tight">
+    More Than A Gym.
+    <br>
+    A Lifestyle.
+</h2>
+<p class="mt-8 text-gray-400 leading-8">
+
+Motion Studio Gym is built for people who want real results.
+Whether your goal is muscle gain, fat loss, or overall fitness,
+our experienced coaches and premium equipment help you
+reach your goals faster.
+
+</p>
+
+<div class="grid grid-cols-2 gap-5 mt-10">
+
+    <div class="bg-gradient-to-br from-red-600 to-red-700 rounded-2xl p-6 hover:scale-105 transition shadow-xl">
+        <h2 class=" counter text-3xl font-bold" data-target="1000" data-suffix="+">0+</h2>
+        <p class="mt-2">Active Members</p>
+    </div>
+
+    <div class="bg-slate-800 rounded-2xl p-6 hover:bg-slate-700 transition">
+        <h2 class=" counter text-3xl font-bold text-red-500" data-target="5"  data-suffix="+">0+ </h2>
+        <p class="mt-2">Certified Trainers</p>
+    </div>
+
+    <div class="bg-slate-800 rounded-2xl p-6 hover:bg-slate-700 transition">
+        <h2 class="text-3xl font-bold text-red-500">24/7</h2>
+        <p class="mt-2">Open Access</p>
+    </div>
+
+    <div class="bg-gradient-to-br from-red-600 to-red-700 rounded-2xl p-6 hover:scale-105 transition shadow-xl">
+        <h2 class="counter text-3xl font-bold" data-target="98"  data-suffix="%">0%</h2>
+        <p class="mt-2">Success Rate</p>
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PROGRAMS ================= -->
+
+<section id="programs" class="py-24 bg-slate-950">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-center text-5xl font-bold">
+
+WHAT WE OFFER
+
+</h2>
+
+<p class="text-center text-gray-400 mt-5">
+
+Your Training. Your Rules.
+<br>
+Four zones. Endless possibilities.
+
+</p>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
+
+<!-- Card -->
+
+<div class="bg-slate-900 rounded-2xl overflow-hidden hover:scale-105 hover:border-red-500
+hover:shadow-[0_0_30px_rgba(239,68,68,0.8)]
+hover:-translate-y-2
+border border-red-500/30 shadow-[0_0_12px_rgba(239,68,68,0.25)] transition duration-300">
+
+<img
+src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=700&q=80"
+class="h-56 w-full object-cover">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-semibold">
+
+Strength & Lifting
+
+</h3>
+
+<p class="text-gray-400 mt-4">
+
+Olympic platforms, power racks, and the full weight range. Progressive programming. Expert spotting. Real strength gains.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- Card -->
+
+<div class="bg-slate-900 rounded-2xl overflow-hidden hover:scale-105 hover:border-red-500
+hover:shadow-[0_0_30px_rgba(239,68,68,0.8)]
+hover:-translate-y-2
+border border-red-500/30 animate-pulse
+shadow-[0_0_20px_rgba(239,68,68,0.5)] transition duration-300">
+
+<img
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgDx_ZMkYS8XSes9PYZkLdMk7YlUE0FboR51Ld85ak3A&s=10"
+class="h-56 w-full object-cover">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-semibold">
+
+Cardio & Fat Loss
+
+</h3>
+
+<p class="text-gray-400 mt-4">
+
+Premium Shua Fitness machines. Smart programming that burns fat without wasting your time on endless pointless sessions.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- Card -->
+
+<div class="bg-slate-900 rounded-2xl overflow-hidden hover:scale-105 hover:border-red-500
+hover:shadow-[0_0_30px_rgba(239,68,68,0.8)]
+hover:-translate-y-2
+border border-red-500/30 shadow-[0_0_12px_rgba(239,68,68,0.25)] transition duration-300">
+
+<img
+src="https://images.unsplash.com/photo-1518459031867-a89b944bffe4?auto=format&fit=crop&w=700&q=80"
+class="h-56 w-full object-cover">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-semibold">
+
+CrossFit
+
+</h3>
+
+<p class="text-gray-400 mt-4">
+
+Battle ropes, rigs, boxes, kettlebells. Train to move the way your body was built – strength, coordination, and endurance. Includes a dedicated Ladies-Only CrossFit Area.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- Card -->
+
+<div class="bg-slate-900 rounded-2xl overflow-hidden hover:scale-105 hover:border-red-500
+hover:shadow-[0_0_30px_rgba(239,68,68,0.8)]
+hover:-translate-y-2
+border border-red-500/30 animate-pulse
+shadow-[0_0_20px_rgba(239,68,68,0.5)]transition duration-300">
+
+<img
+src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=700&q=80"
+class="h-56 w-full object-cover">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-semibold">
+
+Personal Training
+
+</h3>
+
+<p class="text-gray-400 mt-4">
+
+
+Your own certified FFG coach. Custom plan. Tracked progress. Nutrition guidance. This is what real coaching looks like.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<section class="py-24 bg-slate-950 overflow-hidden">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <p class="text-red-500 text-center uppercase tracking-[4px]">
+            Gallery
+        </p>
+
+        <h2 class="text-5xl font-bold text-center mt-4">
+            Inside Motion Studio
+        </h2>
+
+        <div class="slider mt-16">
+
+            <div class="slide-track">
+
+                <img src="https://i.pinimg.com/736x/30/c7/6c/30c76c38f4abca204972d010d15168e5.jpg" class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWEeJkNJ0ubFUTlKltCr8iUNRMY8po4gCzu9xyseO2ZbNlevu079zH6DV1&s=10" class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc0cP1OXPkKoklBiQoUvhAwLB8rpjibCfL2gaxPzS_XYsXbhOp7m66RuI&s=10" class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUxe7AUssWisn1jHkU7pJQvZkSSAybGXioBPLr2a4dep360Hdjzul6aGI&s=10" class="slide">
+                <img src="https://i.pinimg.com/736x/1e/21/78/1e21788a744635628a84f70c32ff695d.jpg" class="slide">
+                  <img src="https://i.pinimg.com/736x/9f/e8/af/9fe8af8fd74464035a60aa6fd2cf6997.jpg" class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBrsWvcYKCKpIQb5NxJit5WKRs1yITI8AU6fVr6o7BFeLWo_26xUjnNAzQ&s=10" class="slide">
+
+                <!-- Duplicate images for infinite loop -->
+
+                 <img src="https://i.pinimg.com/736x/30/c7/6c/30c76c38f4abca204972d010d15168e5.jpg" class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWEeJkNJ0ubFUTlKltCr8iUNRMY8po4gCzu9xyseO2ZbNlevu079zH6DV1&s=10" class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc0cP1OXPkKoklBiQoUvhAwLB8rpjibCfL2gaxPzS_XYsXbhOp7m66RuI&s=10" class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUxe7AUssWisn1jHkU7pJQvZkSSAybGXioBPLr2a4dep360Hdjzul6aGI&s=10" class="slide">
+                <img src="https://i.pinimg.com/736x/1e/21/78/1e21788a744635628a84f70c32ff695d.jpg" class="slide">
+                <img src="https://i.pinimg.com/736x/9f/e8/af/9fe8af8fd74464035a60aa6fd2cf6997.jpg" class="slide">
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBrsWvcYKCKpIQb5NxJit5WKRs1yITI8AU6fVr6o7BFeLWo_26xUjnNAzQ&s=10" class="slide">
+
+
+            </div>
+
+              <div class="slider mt-16">
+
+            <div class="slide-track">
+
+            
+                <!-- Duplicate images for infinite loop -->
+
+                 <img src="https://i.pinimg.com/736x/30/c7/6c/30c76c38f4abca204972d010d15168e5.jpg" class="slide">
+                <img src="https://media.istockphoto.com/id/1347092895/photo/gym.jpg?s=612x612&w=0&k=20&c=Zehi4M5OGIVlzf-WwnolRnypeFyYnAK9GUpnQLt_hFM=" class="slide">
+                <img src="https://plus.unsplash.com/premium_photo-1666736568982-6073f9077889?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGd5bSUyMHJlZCUyMHRoZW1lfGVufDB8fDB8fHww" class="slide">
+                <img src="https://images.unsplash.com/photo-1671316149446-4da1e921c007?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGd5bSUyMHJlZCUyMHRoZW1lfGVufDB8fDB8fHww" class="slide">
+                <img src="https://images.unsplash.com/photo-1760031670160-4da44e9596d0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3ltJTIwcmVkJTIwdGhlbWV8ZW58MHx8MHx8fDA%3D" class="slide">
+                <img src="https://plus.unsplash.com/premium_photo-1669261221863-b1221762b4da?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3ltJTIwcmVkJTIwdGhlbWV8ZW58MHx8MHx8fDA%3D" class="slide">
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBrsWvcYKCKpIQb5NxJit5WKRs1yITI8AU6fVr6o7BFeLWo_26xUjnNAzQ&s=10" class="slide">
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= TRAINERS ================= -->
+
+<section class="py-24 bg-slate-900 animate-on-scroll opacity-0 translate-y-12 transition-all duration-1000">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <h2 class="text-5xl font-bold text-center ">
+            Meet Our Top Trainers
+        </h2>
+
+        <p class="text-center text-gray-400 mt-5">
+          Every trainer is certified, present, and invested in your results. <br>
+Real coaches. On the floor. For you.
+        </p>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+
+            <div class="bg-slate-800 rounded-2xl overflow-hidden">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgXvfmafOJURYo5ztwmah2Yl6oLs87NPfZI-i53pFaaSGn8uukfI5Zt0tG&s=10"
+                     class="h-80 w-full object-cover">
+
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold">JAbdul Haseeb</h3>
+                    <p class="text-red-500 mt-2">Strength Coach</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-800 rounded-2xl overflow-hidden">
+                <img src="https://i.pinimg.com/474x/f8/aa/62/f8aa629d61b8005d2c323c2d4a056c38.jpg"
+                     class="h-80 w-full object-cover">
+
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold">Naureen Rafaqat</h3>
+                    <p class="text-red-500 mt-2">Fitness Trainer</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-800 rounded-2xl overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1546483875-ad9014c88eba?auto=format&fit=crop&w=700&q=80"
+                     class="h-80 w-full object-cover">
+
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold">Rabia</h3>
+                    <p class="text-red-500 mt-2">CrossFit Expert</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PRICING ================= -->
+
+<section
+id="pricing"
+class="relative py-24 overflow-hidden
+bg-gradient-to-br
+from-slate-950
+via-red-950
+to-black
+animate-on-scroll opacity-0 translate-y-12 transition-all duration-1000">
+
+   <div class="absolute top-0 left-0 w-[500px] h-[500px] bg-red-500/20 rounded-full blur-[180px]"></div>
+
+<div class="absolute bottom-0 right-0 w-[450px] h-[450px] bg-red-700/20 rounded-full blur-[180px]"></div>
+
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-red-600/10 rounded-full blur-[220px]"></div>
+    <!-- Content -->
+    <div class="relative z-10 max-w-7xl mx-auto px-6">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+      <p class="text-red-500 uppercase tracking-[5px] text-center font-semibold mb-3">
+    Membership
+</p>
+
+<h2 class="text-6xl font-extrabold text-center">
+    Invest In
+    <span class="text-red-500">Your Health</span>
+</h2>
+
+<p class="text-gray-400 text-center mt-6 max-w-xl mx-auto">
+    Select the plan that fits your lifestyle and start transforming your body today.
+</p>
+        <div class="grid md:grid-cols-3 gap-8 mt-16">
+
+            <div class="bg-slate-900 rounded-2xl p-10 text-center">
+
+                <h3 class="text-3xl font-bold">Basic</h3>
+
+                <h1 class="text-5xl font-extrabold my-6">
+                    $29
+                </h1>
+
+                <ul class="space-y-3 text-gray-400">
+                    <li>✔ Gym Access</li>
+                    <li>✔ Locker Room</li>
+                    <li>✔ Free Wi-Fi</li>
+                </ul>
+
+                <button class="bg-red-600 w-full mt-8 py-3 rounded-xl hover:bg-red-700">
+                    Choose Plan
+                </button>
+
+            </div>
+
+            <div class="bg-red-600 rounded-2xl p-10 text-center scale-105 shadow-2xl">
+
+                <span class="bg-white text-red-600 px-4 py-1 rounded-full font-semibold">
+                    MOST POPULAR
+                </span>
+
+                <h3 class="text-3xl font-bold mt-5">
+                    Pro
+                </h3>
+
+                <h1 class="text-5xl font-extrabold my-6">
+                    $49
+                </h1>
+
+                <ul class="space-y-3">
+                    <li>✔ Everything in Basic</li>
+                    <li>✔ Personal Trainer</li>
+                    <li>✔ Nutrition Plan</li>
+                    <li>✔ Group Classes</li>
+                </ul>
+
+                <button class="bg-white text-red-600 w-full mt-8 py-3 rounded-xl font-semibold">
+                    Get Started
+                </button>
+
+            </div>
+
+            <div class="bg-slate-900 rounded-2xl p-10 text-center">
+
+                <h3 class="text-3xl font-bold">
+                    Elite
+                </h3>
+
+                <h1 class="text-5xl font-extrabold my-6">
+                    $79
+                </h1>
+
+                <ul class="space-y-3 text-gray-400">
+                    <li>✔ VIP Access</li>
+                    <li>✔ Unlimited Classes</li>
+                    <li>✔ Diet Consultation</li>
+                    <li>✔ Personal Coach</li>
+                </ul>
+
+                <button class="bg-red-600 w-full mt-8 py-3 rounded-xl hover:bg-red-700">
+                    Choose Plan
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section class="py-24 bg-slate-900">
+
+    <div class="max-w-6xl mx-auto px-6">
+<p class="text-red-500 text-center uppercase tracking-[4px]  mb-4 font-semibold">
+   What Our Members Say
+</p>
+
+        <h2 class="text-center text-5xl font-bold">
+           Real People. Real Progress.
+        </h2>
+
+        <div class="grid md:grid-cols-3 gap-8 mt-16">
+
+<div class="testimonial bg-slate-800 p-8 rounded-2xl">
+    <div class="flex gap-1 text-red-500 text-xl mb-4">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+</div>
+                <p class="mt-5 text-gray-400">
+                    Amazing trainers and a fantastic atmosphere. I've never been more motivated.
+                </p>
+             <div class="flex items-center justify-between mt-8">
+
+    <div class="flex items-center gap-4">
+
+        <img
+            src="https://randomuser.me/api/portraits/women/44.jpg"
+            class="w-14 h-14 rounded-full object-cover border-2 border-red-500">
+
+        <div>
+            <h4 class="font-bold text-lg">Sarah Ahmed</h4>
+            <p class="text-gray-400 text-sm">Fitness Enthusiast</p>
+        </div>
+
+    </div>
+
+    <span class="bg-red-600/20 text-red-500 px-3 py-1 rounded-full text-xs">
+        Verified
+    </span>
+
+</div>
+            </div>
+
+           <div class="testimonial bg-slate-800 p-8 rounded-2xl">
+            <div class="flex gap-1 text-red-500 text-xl mb-4">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+</div>
+                <p class="mt-5 text-gray-400">
+                    The equipment is top quality and the trainers really care about your progress.
+                </p>
+            <div class="flex items-center justify-between mt-8">
+
+    <div class="flex items-center gap-4">
+
+        <img
+            src="https://randomuser.me/api/portraits/men/32.jpg"
+            class="w-14 h-14 rounded-full object-cover border-2 border-red-500">
+
+        <div>
+            <h4 class="font-bold text-lg">Ali Khan</h4>
+            <p class="text-gray-400 text-sm">Strength Training Member</p>
+        </div>
+
+    </div>
+
+    <span class="bg-red-600/20 text-red-500 px-3 py-1 rounded-full text-xs">
+        Active Member
+    </span>
+
+</div>
+            </div>
+
+          <div class="testimonial bg-slate-800 p-8 rounded-2xl">
+           
+        <div class="flex gap-1 text-red-500 text-xl mb-4">
+
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+</div>
+                <p class="mt-5 text-gray-400">
+                    Joining Motion Studiowas the best decision for my fitness journey.
+                </p>
+         <div class="w-full h-px bg-slate-700 my-6"></div>
+
+    <!-- User -->
+   <div class="flex items-center justify-between mt-8">
+
+    <div class="flex items-center gap-4">
+
+        <img
+            src="https://randomuser.me/api/portraits/women/68.jpg"
+            class="w-14 h-14 rounded-full object-cover border-2 border-red-500">
+
+        <div>
+            <h4 class="font-bold text-lg">Emma Wilson</h4>
+            <p class="text-gray-400 text-sm">CrossFit Athlete</p>
+        </div>
+
+    </div>
+
+    <span class="bg-red-600/20 text-red-500 px-3 py-1 rounded-full text-xs">
+        2+ Years
+    </span>
+
+</div>
+
+        </div>
+<div class="testimonial bg-slate-800 p-8 rounded-2xl">
+    <div class="flex gap-1 text-red-500 text-xl mb-4">
+        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+    </div>
+
+    <p class="mt-5 text-gray-400">
+        The personalised workout plan helped me lose 12 kg in just six months. Every trainer genuinely cares about your progress.
+    </p>
+
+    <div class="flex items-center justify-between mt-8">
+
+        <div class="flex items-center gap-4">
+
+            <img
+            src="https://randomuser.me/api/portraits/men/45.jpg"
+            class="w-14 h-14 rounded-full object-cover border-2 border-red-500">
+
+            <div>
+                <h4 class="font-bold text-lg">Daniel Brooks</h4>
+                <p class="text-gray-400 text-sm">Weight Loss Program</p>
+            </div>
+
+        </div>
+
+        <span class="bg-red-600/20 text-red-500 px-3 py-1 rounded-full text-xs">
+            6 Months
+        </span>
+
+    </div>
+</div>
+<div class="testimonial bg-slate-800 p-8 rounded-2xl">
+    <div class="flex gap-1 text-red-500 text-xl mb-4">
+        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+    </div>
+
+    <p class="mt-5 text-gray-400">
+        The atmosphere is energetic, the equipment is modern, and the group classes keep me motivated every single week.
+    </p>
+
+    <div class="flex items-center justify-between mt-8">
+
+        <div class="flex items-center gap-4">
+
+            <img
+            src="https://randomuser.me/api/portraits/women/63.jpg"
+            class="w-14 h-14 rounded-full object-cover border-2 border-red-500">
+
+            <div>
+                <h4 class="font-bold text-lg">Sophia Turner</h4>
+                <p class="text-gray-400 text-sm">HIIT Member</p>
+            </div>
+
+        </div>
+
+        <span class="bg-red-600/20 text-red-500 px-3 py-1 rounded-full text-xs">
+            Gold Member
+        </span>
+
+    </div>
+</div>
+<div class="testimonial bg-slate-800 p-8 rounded-2xl">
+    <div class="flex gap-1 text-red-500 text-xl mb-4">
+        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+    </div>
+
+    <p class="mt-5 text-gray-400">
+        From my first session, I felt welcomed. The coaches helped me improve my strength, confidence, and overall fitness.
+    </p>
+
+    <div class="flex items-center justify-between mt-8">
+
+        <div class="flex items-center gap-4">
+
+            <img
+            src="https://randomuser.me/api/portraits/men/71.jpg"
+            class="w-14 h-14 rounded-full object-cover border-2 border-red-500">
+
+            <div>
+                <h4 class="font-bold text-lg">Michael Carter</h4>
+                <p class="text-gray-400 text-sm">CrossFit Athlete</p>
+            </div>
+
+        </div>
+
+        <span class="bg-red-600/20 text-red-500 px-3 py-1 rounded-full text-xs">
+            Elite Member
+        </span>
+
+    </div>
+</div>
+    </div><div class="flex justify-center items-center gap-6 mt-12">
+
+    <button
+    id="prev"
+    class="w-12 h-12 rounded-full
+    border border-red-500
+    text-red-500
+    hover:bg-red-600
+    hover:text-white
+    transition">
+
+        ←
+
+    </button>
+
+    <button
+    id="next"
+    class="w-12 h-12 rounded-full
+    border border-red-500
+    text-red-500
+    hover:bg-red-600
+    hover:text-white
+    transition">
+
+        →
+
+    </button>
+
+</div>
+
+</section>
+
+<!-- ================= CTA ================= -->
+
+<section id="contact" class="py-24">
+
+    <div class="max-w-5xl mx-auto text-center px-6">
+
+        <h2 class="text-6xl font-bold">
+            Ready to Transform Your Body?
+        </h2>
+
+        <p class="text-gray-400 mt-6 text-lg">
+            Join Motion Studio Gym today and start your fitness journey with expert guidance.
+        </p>
+
+    <a href="#map"
+class="inline-block mt-10 bg-red-600 hover:bg-red-700 px-10 py-4 rounded-xl text-xl font-semibold transition">
+
+    Join Today
+
+</a>
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact"class="relative py-24 overflow-hidden
+bg-gradient-to-br
+from-slate-950
+via-red-950
+to-black">
+
+   <div class="absolute top-0 left-0 w-[500px] h-[500px] bg-red-500/20 rounded-full blur-[180px]"></div>
+
+<div class="absolute bottom-0 right-0 w-[450px] h-[450px] bg-red-700/20 rounded-full blur-[180px]"></div>
+
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-red-600/10 rounded-full blur-[220px]"></div>
+
+<div class="max-w-7xl mx-auto px-6">
+
+<p class="text-red-500 uppercase tracking-[4px] font-semibold text-center">
+Visit Us
+</p>
+
+<h2 class="text-5xl font-bold text-center mt-3">
+Start Your Fitness Journey Today
+</h2>
+
+<p class="text-center text-gray-400 mt-5 max-w-2xl mx-auto">
+Visit Motion Studio Gym, explore our facilities, and meet our expert trainers.
+We're ready to help you achieve your fitness goals.
+</p>
+
+<div class="grid lg:grid-cols-2 gap-14 mt-16 items-center">
+
+<!-- Map -->
+
+<div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1248116.7752811268!2d2.5311423562499993!3d52.339079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c60d055f6fe37b%3A0x8308edc6c86db22c!2sMotion%20Studio!5e0!3m2!1sen!2sus!4v1784926485945!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+</div>
+
+<!-- Contact Info -->
+
+<div id="map">
+
+<h3 class="text-4xl font-bold mb-10">
+Visit Motion Studio
+</h3>
+
+<div class="space-y-8">
+
+<div class="flex gap-5">
+
+<div class="text-3xl text-red-500">
+📍
+</div>
+
+<div>
+
+<h4 class="text-xl font-semibold">
+Address
+</h4>
+
+<p class="text-gray-400 mt-2">
+123 Fitness Street<br>
+Willem de Zwijgerlaan 2, 1111 ZS Diemen, Netherlands
+</p>
+
+</div>
+
+</div>
+
+<div class="flex gap-5">
+
+<div class="text-3xl text-red-500">
+📞
+</div>
+
+<div>
+
+<h4 class="text-xl font-semibold">
+Phone
+</h4>
+
+<p class="text-gray-400 mt-2">
++92 300 1234567
+</p>
+
+</div>
+
+</div>
+
+<div class="flex gap-5">
+
+<div class="text-3xl text-red-500">
+✉️
+</div>
+
+<div>
+
+<h4 class="text-xl font-semibold">
+Email
+</h4>
+
+<p class="text-gray-400 mt-2">
+hello@motionstudio.com
+</p>
+
+</div>
+
+</div>
+
+<div class="flex gap-5">
+
+<div class="text-3xl text-red-500">
+🕒
+</div>
+
+<div>
+
+<h4 class="text-xl font-semibold">
+Working Hours
+</h4>
+
+<p class="text-gray-400 mt-2">
+Monday - Saturday<br>
+6:00 AM - 11:00 PM
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="flex flex-wrap gap-5 mt-12">
+
+<a href="https://www.google.com/maps/place/Motion+Studio/@52.339079,2.5311424,8z/data=!4m10!1m2!2m1!1smotion+stdio+gym!3m6!1s0x47c60d055f6fe37b:0x8308edc6c86db22c!8m2!3d52.339079!4d4.9701072!15sChFtb3Rpb24gc3R1ZGlvIGd5bZIBEHBlcnNvbmFsX3RyYWluZXLgAQA!16s%2Fg%2F11vsfg6d23?hl=en-GB&entry=ttu&g_ep=EgoyMDI2MDcyMi4wIKXMDSoASAFQAw%3D%3D"
+class="bg-red-600 hover:bg-red-700 transition px-8 py-4 rounded-xl font-semibold">
+
+Get Directions
+
+</a>
+
+<a href="#"
+class="bg-green-600 hover:bg-green-700 transition px-8 py-4 rounded-xl font-semibold">
+
+WhatsApp Us
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-black py-10">
+
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+
+        <h2 class="text-3xl font-bold text-red-500">
+          Motion<span class="text-white">Studio</span>
+        </h2>
+
+        <p class="text-gray-500 mt-5 md:mt-0">
+            © 2026 Motion Studio Gym. All Rights Reserved.
+        </p>
+
+    </div>
+<script src="gym.js"></script>
+    
+</script>
+</footer>
+
+
+</body>
+</html>

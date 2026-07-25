@@ -1,0 +1,184 @@
+/* ===============================
+   Google Font
+================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    overflow-x:hidden;
+}
+
+/* ===============================
+   Buttons
+================================== */
+
+button,
+a{
+    transition:all .3s ease;
+}
+
+/* ===============================
+   Hero Image Animation
+================================== */
+
+#home img{
+    animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-12px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
+
+/* ===============================
+   Card Hover
+================================== */
+
+.bg-slate-800,
+.bg-slate-900{
+
+    transition:.35s ease;
+
+}
+
+.bg-slate-800:hover,
+.bg-slate-900:hover{
+
+    transform:translateY(-8px);
+
+}
+
+/* ===============================
+   Navbar
+================================== */
+
+header{
+
+    transition:.3s;
+
+}
+
+/* ===============================
+   Scrollbar
+================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#020617;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#dc2626;
+    border-radius:10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#ef4444;
+
+}
+
+/* ===============================
+   Text Selection
+================================== */
+
+::selection{
+
+    background:#dc2626;
+    color:white;
+
+}
+
+/* ===============================
+   Images
+================================== */
+
+img{
+
+    display:block;
+
+}
+
+/* ===============================
+   Pricing Card
+================================== */
+
+#pricing .scale-105{
+
+    transform:scale(1.05);
+
+}
+
+/* ===============================
+   Footer
+================================== */
+
+footer{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.slider{
+    overflow:hidden;
+    width:100%;
+}
+
+.slide-track{
+    display:flex;
+    width:calc(350px * 12);
+    animation:scroll 30s linear infinite;
+}
+
+.slide{
+    width:350px;
+    height:250px;
+    object-fit:cover;
+    border-radius:20px;
+    margin-right:24px;
+    flex-shrink:0;
+}
+
+@keyframes scroll{
+
+    0%{
+        transform:translateX(0);
+    }
+
+    100%{
+        transform:translateX(calc(-350px * 6));
+    }
+
+}
+
